@@ -1,0 +1,57 @@
+/* ==== Vars ==== */
+:root {
+    /* Var colors*/
+    --background-color: #010101;
+    --text-color: #F6F6F6;
+    --primary-color: #22D4FD;
+
+    /* Var fonts*/
+    --main-font: "Krona One", sans-serif;
+    --secondary-font: "Montserrat", sans-serif;
+
+    /* Var font size*/
+    --title-size: 2.25rem;
+    --paragraph-size: 1.5rem;
+}
+
+
+/* ==== Reset CSS ==== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* ==== Home page ==== */
+.page {
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+
+/* ==== Header ==== */
+.page__header {
+    height: 9.3rem;
+    padding: 3.8rem 0 3.6rem 17rem;
+}
+
+.header__menu {
+    display: flex;
+    gap: 5rem;
+}
+
+.menu__link {
+    text-decoration: none;
+    font-family: var(--paragraph-size);
+    font-size: var(--paragraph-size);
+    color: var(--primary-color);
+}
+
+.menu__link:hover {
+    text-decoration: none;
+    font-family: var(--paragraph-size);
+    font-size: var(--paragraph-size);
+    color: var(--primary-color);
+    border-bottom: solid 0.15rem var(--primary-color);
+}

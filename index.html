@@ -5,40 +5,43 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css" />
 </head>
-<body>
-  <header>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="">Sobre mim</a>
-        <a href="">Habilidades</a>
+<body class="page">
+  <header class="page__header">
+    <nav class="header__menu">
+        <a class="menu__link" href="index.html">Home</a>
+        <a class="menu__link href=">Sobre mim</a>
+        <a class="menu__link href=">Habilidades</a>
     </nav>
   </header>
 
-  <main>
-    <section>
-      <h1>Joana Santos</h1>
-      <h2>Front-end</h2>
-      <p>Olá! Sou Joana Santos, desenvolvedora Front-end com especialidade em Figma, HTML e CSS. Ajudo pequenos negócios e designers a colocarem em prática boas ideias. Vamos conversar?
+  <main class="page__main">
+    <section class="main__content">
+      <h1 class="content__title">Joana Santos</h1>
+      <h2 class="content__subtitle--highlighted">Front-end</h2>
+      <p class="content__text">Olá! Sou Joana Santos, desenvolvedora Front-end com especialidade em Figma, HTML e CSS. Ajudo pequenos negócios e designers a colocarem em prática boas ideias. Vamos conversar?
       </p>
 
-      <h2>Acesse minhas redes:</h2>
-      <a href="">
-        <img src="assets/images/icon-github.svg" alt="Icone do GitHub">
-        GitHub
+      <h2 class="content__subtitle">Acesse minhas redes:</h2>
+      <a class="content__link" href="https://github.com/michaelprocha">
+        <img class="link__image" src="assets/images/icon-github.svg" alt="Icone do GitHub">
+        <p class="link__text">GitHub</p>
       </a>
-      <a href="">
-        <img src="assets/images/icon-linkedin.svg" alt="Icone do Linkedin">
-        Linkedin
+      <a class="content__link" href="https://linkedin.com/in/michaelprocha">
+        <img class="link__image" src="assets/images/icon-linkedin.svg" alt="Icone do Linkedin">
+        <p class="link__text">Linkedin</p>
       </a>
     </section>
 
-    <img src="assets/images/profile-photo.svg" alt="Foto de Joana Santos">
+    <img class="main__image" src="assets/images/profile-photo.svg" alt="Foto de Joana Santos">
   </main>
 
-  <footer>
-    <p>Desenvolvido por Michael Rocha.</p>
+  <footer class="page__footer">
+    <p class="footer__text">Desenvolvido por Michael Rocha.</p>
   </footer>
 </body>
 </html>
