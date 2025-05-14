@@ -15,12 +15,14 @@
 }
 
 
+
 /* ==== Reset CSS ==== */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
 
 
 /* ==== Home page ==== */
@@ -30,17 +32,27 @@
 }
 
 
+
 /* ==== Header ==== */
+/* ===========================
+    Block: page
+=========================== */
 .page__header {
     height: 9.3rem;
-    padding: 3.8rem 0 3.6rem 17rem;
+    padding: 3.8rem 0 3.6rem 13rem;
 }
 
+/* ===========================
+    Block/element: header
+=========================== */
 .header__menu {
     display: flex;
     gap: 5rem;
 }
 
+/* ===========================
+    element of header
+=========================== */
 .menu__link {
     text-decoration: none;
     font-family: var(--paragraph-size);
@@ -54,4 +66,97 @@
     font-size: var(--paragraph-size);
     color: var(--primary-color);
     border-bottom: solid 0.15rem var(--primary-color);
+}
+
+
+
+/* ==== main ==== */
+/* ===========================
+    Block: page
+=========================== */
+.page__main {
+    display: flex;
+    gap: 5rem;
+    align-items: center;
+    height: 50rem;
+    padding: 5rem 0 8.25rem 13rem;
+}
+
+/* ===========================
+    Block/element: main
+=========================== */
+.main__content {
+    width: 37rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+}
+    
+.main__image{
+    width: 30rem;
+}
+
+/* ===========================
+    Block/element: content
+=========================== */
+.content__titles{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+    
+.content__text {
+    font-family: var(--secondary-font);
+    font-size: var(--paragraph-size);
+    color: var(--text-color);
+}
+    
+.content__subtitle{
+    font-family: var(--main-font);
+    font-size: var(--paragraph-size);
+    color: var(--text-color);
+    font-weight: normal;
+    text-align: center;
+}
+    
+.content__link {
+    width: 23.5rem;
+    height: 4.25rem;
+    border: solid 0.125rem var(--primary-color);
+    border-radius: 0.5rem;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+/* ===========================
+   elements of titles
+=========================== */
+.titles__title {
+    font-family: var(--main-font);
+    font-size: var(--title-size);
+    color: var(--text-color);
+    text-align: center;
+    font-weight: normal;
+}
+
+.titles__subtitle--highlighted {
+    font-family: var(--main-font);
+    font-size: var(--title-size);
+    color: var(--primary-color);
+    font-weight: normal;
+    text-align: center;
+}
+
+/* ===========================
+   elements of link
+=========================== */
+.link__text {
+    color: var(--text-color);
+    font-family: var(--secondary-font);
+    font-size: var(--paragraph-size);
+    font-weight: 600;
 }
