@@ -57,6 +57,7 @@
     text-decoration: none;
     font-family: var(--paragraph-size);
     font-size: var(--paragraph-size);
+    font-weight: 600;
     color: var(--primary-color);
 }
 
@@ -65,7 +66,7 @@
     font-family: var(--paragraph-size);
     font-size: var(--paragraph-size);
     color: var(--primary-color);
-    border-bottom: solid 0.15rem var(--primary-color);
+    border-bottom: solid 0.2rem var(--primary-color);
 }
 
 
@@ -125,6 +126,19 @@
     height: 4.25rem;
     border: solid 0.125rem var(--primary-color);
     border-radius: 0.5rem;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.content__link:hover {
+    width: 23.5rem;
+    height: 4.25rem;
+    border: solid 0.125rem var(--primary-color);
+    border-radius: 0.5rem;
+    background-color: #272727;
     display: flex;
     gap: 1rem;
     justify-content: center;
