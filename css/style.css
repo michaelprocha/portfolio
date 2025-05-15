@@ -28,7 +28,10 @@
 /* ==== Home page ==== */
 .page {
     background-color: var(--background-color);
-    color: var(--text-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5rem;
 }
 
 
@@ -39,15 +42,20 @@
 =========================== */
 .page__header {
     height: 9.3rem;
-    padding: 3.8rem 0 3.6rem 13rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*padding: 3.8rem 0 3.6rem 13rem;*/
 }
 
 /* ===========================
     Block/element: header
 =========================== */
 .header__menu {
+    width: 72.5rem;
     display: flex;
     gap: 5rem;
+    align-items: center;
 }
 
 /* ===========================
@@ -76,11 +84,12 @@
     Block: page
 =========================== */
 .page__main {
+    height: 37.5rem;
+    width: 72.5rem;
     display: flex;
     gap: 5rem;
     align-items: center;
-    height: 50rem;
-    padding: 5rem 0 8.25rem 13rem;
+    /*padding: 5rem 0 8.25rem 13rem*/;
 }
 
 /* ===========================
@@ -90,30 +99,48 @@
     width: 37rem;
     display: flex;
     flex-direction: column;
-    gap: 1.5rem;
+    gap: 3.5rem;
     align-items: center;
 }
     
 .main__image{
-    width: 30rem;
+    width: 30.5rem;
 }
 
 /* ===========================
     Block/element: content
 =========================== */
-.content__titles{
+.content__main-text {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.content__link-area {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+/* ===========================
+    Block/element: main-text
+=========================== */
+.main-text__titles{
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
 }
     
-.content__text {
+.main-text__text {
     font-family: var(--secondary-font);
     font-size: var(--paragraph-size);
     color: var(--text-color);
 }
-    
-.content__subtitle{
+
+/* ===========================
+    Block/element: link-area
+=========================== */
+.link-area__subtitle{
     font-family: var(--main-font);
     font-size: var(--paragraph-size);
     color: var(--text-color);
@@ -121,7 +148,7 @@
     text-align: center;
 }
     
-.content__link {
+.link-area__link {
     width: 23.5rem;
     height: 4.25rem;
     border: solid 0.125rem var(--primary-color);
@@ -133,7 +160,7 @@
     text-decoration: none;
 }
 
-.content__link:hover {
+.link-area__link:hover {
     width: 23.5rem;
     height: 4.25rem;
     border: solid 0.125rem var(--primary-color);
@@ -183,6 +210,7 @@
 =========================== */
 .page__footer {
     height: 5rem;
+    width: 100%;
     background-color: var(--primary-color);
     display: flex;
     align-items: center;
