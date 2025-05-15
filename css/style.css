@@ -160,3 +160,26 @@
     font-size: var(--paragraph-size);
     font-weight: 600;
 }
+
+
+
+/* ==== Footer ==== */
+/* ===========================
+    Block: footer
+=========================== */
+.page__footer {
+    height: 5rem;
+    background-color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ===========================
+   elements of footer
+=========================== */
+.footer__text {
+    font-family: var(--secondary-font);
+    font-size: var(--paragraph-size);
+    color: var(--background-color);
+}
