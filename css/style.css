@@ -225,3 +225,44 @@
     font-size: var(--paragraph-size);
     color: var(--background-color);
 }
+
+@media only screen and (max-width: 1200px){
+    
+    /* ==== Header ==== */
+    /* ===========================
+        Block: page
+    =========================== */
+    .page__header {
+        height: 9.3rem;
+        width: auto;
+    }
+
+    /* ===========================
+        Block/element: header
+    =========================== */
+    .header__menu {
+        height: 9.3rem;
+        width: auto;
+        display: flex;
+        gap: 5rem;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+
+    /* ==== main ==== */
+    /* ===========================
+        Block: page
+    =========================== */
+    .page__main {
+        height: 73rem;
+        width: auto;
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 5rem;
+        align-items: center;
+        /*padding: 5rem 0 8.25rem 13rem*/;
+    }
+    
+}
