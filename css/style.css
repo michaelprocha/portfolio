@@ -1,0 +1,483 @@
+/* ==== Vars ==== */
+:root {
+    /* Var colors*/
+    --background-color: #010101;
+    --text-color: #F6F6F6;
+    --primary-color: #22D4FD;
+
+    /* Var fonts*/
+    --main-font: "Krona One", sans-serif;
+    --secondary-font: "Montserrat", sans-serif;
+
+    /* Var font size*/
+    --title-size: 2.25rem;
+    --paragraph-size: 1.5rem;
+}
+
+
+
+/* ==== Reset CSS ==== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+/* ==== Home page ==== */
+.page {
+    background-color: var(--background-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5rem;
+}
+
+
+
+/* ==== Header ==== */
+/* ===========================
+    Block: page
+=========================== */
+.page__header {
+    height: 9.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*padding: 3.8rem 0 3.6rem 13rem;*/
+}
+
+/* ===========================
+    Block/element: header
+=========================== */
+.header__menu {
+    width: 72.5rem;
+    display: flex;
+    gap: 5rem;
+    align-items: center;
+}
+
+/* ===========================
+    element of header
+=========================== */
+.menu__link {
+    text-decoration: none;
+    font-family: var(--secondary-font);
+    font-size: var(--paragraph-size);
+    font-weight: 600;
+    color: var(--primary-color);
+}
+
+.menu__link:hover {
+    text-decoration: none;
+    font-family: var(--secondary-font);
+    font-size: var(--paragraph-size);
+    color: var(--primary-color);
+    border-bottom: solid 0.2rem var(--primary-color);
+}
+
+
+
+/* ==== main ==== */
+/* ===========================
+    Block: page
+=========================== */
+.page__main {
+    height: 37.5rem;
+    width: 72.5rem;
+    display: flex;
+    gap: 5rem;
+    align-items: center;
+    /*padding: 5rem 0 8.25rem 13rem*/;
+}
+
+/* ===========================
+    Block/element: main
+=========================== */
+.main__content {
+    width: 37rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3.5rem;
+    align-items: center;
+}
+    
+.main__image{
+    width: 30.5rem;
+}
+
+/* ===========================
+    Block/element: content
+=========================== */
+.content__main-text {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.content__link-area {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+/* ===========================
+    Block/element: main-text
+=========================== */
+.main-text__titles{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+    
+.main-text__text {
+    font-family: var(--secondary-font);
+    font-size: var(--paragraph-size);
+    color: var(--text-color);
+}
+
+/* ===========================
+    Block/element: link-area
+=========================== */
+.link-area__subtitle{
+    font-family: var(--main-font);
+    font-size: var(--paragraph-size);
+    color: var(--text-color);
+    font-weight: normal;
+    text-align: center;
+}
+    
+.link-area__link {
+    width: 23.5rem;
+    height: 4.25rem;
+    border: solid 0.125rem var(--primary-color);
+    border-radius: 0.5rem;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.link-area__link:hover {
+    width: 23.5rem;
+    height: 4.25rem;
+    border: solid 0.125rem var(--primary-color);
+    border-radius: 0.5rem;
+    background-color: #272727;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+/* ===========================
+   elements of titles
+=========================== */
+.titles__title {
+    font-family: var(--main-font);
+    font-size: var(--title-size);
+    color: var(--text-color);
+    text-align: center;
+    font-weight: normal;
+}
+
+.titles__subtitle--highlighted {
+    font-family: var(--main-font);
+    font-size: var(--title-size);
+    color: var(--primary-color);
+    font-weight: normal;
+    text-align: center;
+}
+
+/* ===========================
+   elements of link
+=========================== */
+.link__text {
+    color: var(--text-color);
+    font-family: var(--secondary-font);
+    font-size: var(--paragraph-size);
+    font-weight: 600;
+}
+
+
+
+/* ==== Footer ==== */
+/* ===========================
+    Block: footer
+=========================== */
+.page__footer {
+    height: 5rem;
+    width: 100%;
+    background-color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ===========================
+   elements of footer
+=========================== */
+.footer__text {
+    font-family: var(--secondary-font);
+    font-size: var(--paragraph-size);
+    color: var(--background-color);
+}
+
+
+
+@media only screen and (max-width: 1200px){
+    
+    /* ==== Header ==== */
+    /* ===========================
+        Block: page
+    =========================== */
+    .page__header {
+        height: 8rem;
+        width: auto;
+    }
+
+    /* ===========================
+        Block/element: header
+    =========================== */
+    .header__menu {
+        height: 8rem;
+        width: auto;
+        display: flex;
+        gap: 5rem;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+
+    /* ==== main ==== */
+    /* ===========================
+        Block: page
+    =========================== */
+    .page__main {
+        height: 74rem;
+        width: auto;
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 5rem;
+        align-items: center;
+        /*padding: 5rem 0 8.25rem 13rem*/;
+    }
+    
+}
+
+
+
+@media only screen and (max-width: 650px){
+
+    /* ==== Home page ==== */
+    .page {
+        background-color: var(--background-color);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5rem;
+    }
+
+
+
+        /* ==== Header ==== */
+    /* ===========================
+        Block: page
+    =========================== */
+    .page__header {
+        height: 4.65rem;
+        width: auto;
+    }
+
+    /* ===========================
+        Block/element: header
+    =========================== */
+    .header__menu {
+        height: 4.65rem;
+        width: auto;
+        display: flex;
+        gap: 1.5rem;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* ===========================
+        element of header
+    =========================== */
+    .menu__link {
+        text-decoration: none;
+        font-family: var(--secondary-font);
+        font-size: 1rem;
+        font-weight: 600;
+        color: var(--primary-color);
+    }
+
+    .menu__link:hover {
+        text-decoration: none;
+        font-family: var(--secondary-font);
+        font-size: 1rem;
+        color: var(--primary-color);
+        border-bottom: solid 0.2rem var(--primary-color);
+    }
+
+
+
+    /* ==== main ==== */
+    /* ===========================
+        Block: page
+    =========================== */
+    .page__main {
+        height: 47.5rem;
+        width: auto;
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 2.5rem;
+        align-items: center;
+        justify-content: center;
+        /*padding: 5rem 0 8.25rem 13rem*/;
+    }
+
+    /* ===========================
+    Block/element: main
+    =========================== */
+    .main__content {
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 2.5rem;
+        align-items: center;
+    }
+        
+    .main__image{
+        width: 15.25rem;
+    }
+
+    /* ===========================
+    Block/element: content
+    =========================== */
+    .content__main-text {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .content__link-area {
+        display: flex;
+        flex-direction: column;
+        gap: 0.9rem;
+    }
+
+    /* ===========================
+    Block/element: main-text
+    =========================== */
+    .main-text__text {
+        font-family: var(--secondary-font);
+        font-size: 1rem;
+        color: var(--text-color);
+        margin: 0 1rem 0 1rem;
+    }
+
+    .main-text__titles{
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
+    }
+
+    /* ===========================
+        Block/element: link-area
+    =========================== */
+    .link-area__subtitle{
+        font-family: var(--main-font);
+        font-size: 1rem;
+        color: var(--text-color);
+        font-weight: normal;
+        text-align: center;
+    }
+
+        .link-area__link {
+        width: auto;
+        height: 2.5rem;
+        border: solid 0.125rem var(--primary-color);
+        border-radius: 0.5rem;
+        display: flex;
+        gap: 1rem;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+    }
+
+    .link-area__link:hover {
+        width: auto;
+        height: 2.5rem;
+        border: solid 0.125rem var(--primary-color);
+        border-radius: 0.5rem;
+        background-color: #272727;
+        display: flex;
+        gap: 1rem;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+    }
+
+    /* ===========================
+    elements of titles
+    =========================== */
+    .titles__title {
+        font-family: var(--main-font);
+        font-size: 1.75rem;
+        color: var(--text-color);
+        text-align: center;
+        font-weight: normal;
+    }
+
+    .titles__subtitle--highlighted {
+        font-family: var(--main-font);
+        font-size: 1.75rem;
+        color: var(--primary-color);
+        font-weight: normal;
+        text-align: center;
+    }
+
+    /* ===========================
+    elements of link
+    =========================== */
+    .link__text {
+        color: var(--text-color);
+        font-family: var(--secondary-font);
+        font-size: 1rem;
+        font-weight: 600;
+    }
+
+    .link__image{
+        width: 1.5rem;
+    }
+
+
+
+    /* ==== Footer ==== */
+    /* ===========================
+        Block: footer
+    =========================== */
+    .page__footer {
+        height: 3rem;
+        width: 100%;
+        background-color: var(--primary-color);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* ===========================
+    elements of footer
+    =========================== */
+    .footer__text {
+        font-family: var(--secondary-font);
+        font-size: 1rem;
+        color: var(--background-color);
+    }
+
+}
