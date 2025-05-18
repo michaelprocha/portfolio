@@ -1,0 +1,48 @@
+.content__skills {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.skills__skill {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.skill__text {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.5rem;
+    color: #F6F6F6;
+    font-weight: 600;
+    text-align: center;
+}
+
+@media only screen and (max-width: 650px){
+    
+    .content__skills {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .skills__skill {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.5rem;
+    }
+
+    .skill__text {
+        font-family: "Montserrat", sans-serif;
+        font-size: 1rem;
+        color: #F6F6F6;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .skill_image {
+        width: 16rem;
+    }
+
+}
