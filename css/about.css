@@ -1,0 +1,76 @@
+/* ==== main ==== */
+/* ===========================
+    Block/element: content 
+=========================== */
+.main__content {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+/* ===========================
+    Block/element: text 
+=========================== */
+.content__text {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+
+
+@media only screen and (max-width: 1200px){
+    
+    /* ==== main ==== */
+    /* ===========================
+        Block: page
+    =========================== */
+    .page__main {
+        height: 76rem;
+        width: auto;
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 4rem;
+        align-items: center;
+        /*padding: 5rem 0 8.25rem 13rem*/;
+    }
+    
+}
+
+
+
+@media only screen and (max-width: 650px){
+
+    /* ==== main ==== */
+    /* ===========================
+        Block: page
+    =========================== */
+    .page__main {
+        height: 57rem;
+        width: auto;
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 2.5rem;
+        align-items: center;
+        justify-content: center;
+        /*padding: 5rem 0 8.25rem 13rem*/;
+    }
+
+    /* ===========================
+    Block/element: content 
+    =========================== */
+    .main__content {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    }
+
+    /* ===========================
+    Block/element: text 
+    =========================== */
+    .content__text {
+        display: flex;
+        flex-direction: column;
+        gap: 1.2rem;
+    }
+}
