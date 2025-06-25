@@ -1,0 +1,40 @@
+/* ==== Header ==== */
+/* ===========================
+    Block: page
+=========================== */
+.page__header {
+    height: 9.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*padding: 3.8rem 0 3.6rem 13rem;*/
+}
+
+/* ===========================
+    Block/element: header
+=========================== */
+.header__menu {
+    width: 72.5rem;
+    display: flex;
+    gap: 5rem;
+    align-items: center;
+}
+
+/* ===========================
+    element of header
+=========================== */
+.menu__link {
+    text-decoration: none;
+    font-family: var(--secondary-font);
+    font-size: var(--paragraph-size);
+    font-weight: 600;
+    color: var(--primary-color);
+}
+
+.menu__link:hover {
+    text-decoration: none;
+    font-family: var(--secondary-font);
+    font-size: var(--paragraph-size);
+    color: var(--primary-color);
+    border-bottom: solid 0.2rem var(--primary-color);
+}

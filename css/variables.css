@@ -1,0 +1,14 @@
+:root {
+    /* Var colors*/
+    --background-color: #010101;
+    --text-color: #F6F6F6;
+    --primary-color: #22D4FD;
+
+    /* Var fonts*/
+    --main-font: "Krona One", sans-serif;
+    --secondary-font: "Montserrat", sans-serif;
+
+    /* Var font size*/
+    --title-size: 2.25rem;
+    --paragraph-size: 1.5rem;
+}
