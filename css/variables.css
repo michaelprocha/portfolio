@@ -1,14 +1,23 @@
 :root {
-    /* Var colors*/
+    /*colors*/
     --background-color: #010101;
     --text-color: #F6F6F6;
     --primary-color: #22D4FD;
 
-    /* Var fonts*/
+    /*fonts*/
     --main-font: "Krona One", sans-serif;
     --secondary-font: "Montserrat", sans-serif;
 
-    /* Var font size*/
-    --title-size: 2.25rem;
-    --paragraph-size: 1.5rem;
+    /*font weight*/
+    --bold-montserrat: 600;
+
+    /*font size large*/
+    --title-size-lg: 2.25rem;
+    --paragraph-size-lg: 1.5rem;
+
+    /*header height large*/
+    --header-height-lg: 7rem;
+    --header-menu-lg: 1.9rem;
+    --header-itens-gap-lg: 5rem;
+    --header-itens-border-lg: 0.2rem;
 }
