@@ -1,14 +1,13 @@
-/* ==== main ==== */
 /* ===========================
     Block: page
 =========================== */
 .page__main {
-    height: 37.5rem;
-    width: 72.5rem;
+    background-color: var(--background-color);
+    height: 45.5rem;
     display: flex;
-    gap: 5rem;
+    justify-content: center;
     align-items: center;
-    /*padding: 5rem 0 8.25rem 13rem*/;
+    gap: var(--item-spacing-lg);
 }
 
 /* ===========================
@@ -52,7 +51,7 @@
     
 .main-text__text {
     font-family: var(--secondary-font);
-    font-size: var(--paragraph-size);
+    font-size: var(--paragraph-size-lg);
     color: var(--text-color);
 }
 
@@ -61,7 +60,7 @@
 =========================== */
 .link-area__subtitle{
     font-family: var(--main-font);
-    font-size: var(--paragraph-size);
+    font-size: var(--paragraph-size-lg);
     color: var(--text-color);
     font-weight: normal;
     text-align: center;
@@ -97,7 +96,7 @@
 =========================== */
 .titles__title {
     font-family: var(--main-font);
-    font-size: var(--title-size);
+    font-size: var(--title-size-lg);
     color: var(--text-color);
     text-align: center;
     font-weight: normal;
@@ -105,7 +104,7 @@
 
 .titles__subtitle--highlighted {
     font-family: var(--main-font);
-    font-size: var(--title-size);
+    font-size: var(--title-size-lg);
     color: var(--primary-color);
     font-weight: normal;
     text-align: center;
@@ -117,6 +116,6 @@
 .link__text {
     color: var(--text-color);
     font-family: var(--secondary-font);
-    font-size: var(--paragraph-size);
-    font-weight: 600;
+    font-size: var(--paragraph-size-lg);
+    font-weight: var(--bold-montserrat);
 }

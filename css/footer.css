@@ -1,4 +1,3 @@
-/* ==== Footer ==== */
 /* ===========================
     Block: footer
 =========================== */
@@ -16,6 +15,6 @@
 =========================== */
 .footer__text {
     font-family: var(--secondary-font);
-    font-size: var(--paragraph-size);
+    font-size: var(--paragraph-size-lg);
     color: var(--background-color);
 }

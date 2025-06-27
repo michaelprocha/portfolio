@@ -3,7 +3,7 @@
 =========================== */
 .page__header {
     background-color: var(--background-color);
-    height: var(--header-height-lg);
+    height: 7rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -13,9 +13,9 @@
     Block/element: header
 =========================== */
 .header__menu {
-    height: var(--header-menu-lg);
+    height: 1.9rem;
     display: flex;
-    gap: var(--header-itens-gap-lg);
+    gap: var(--item-spacing-lg);
 }
 
 /* ===========================
@@ -34,5 +34,5 @@
     font-family: var(--secondary-font);
     font-size: var(--paragraph-size-lg);
     color: var(--primary-color);
-    border-bottom: solid var(--header-itens-border-lg) var(--primary-color);
+    border-bottom: solid 0.2rem var(--primary-color);
 }
