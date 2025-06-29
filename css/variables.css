@@ -12,9 +12,10 @@
     --bold-montserrat: 600;
 
     /*font size large*/
-    --title-size-lg: 2.25rem;
-    --paragraph-size-lg: 1.5rem;
+    --title-size-lg: 3.2rem;
+    --paragraph-size-lg: 2.4rem;
 
     /*spacing*/
-    --item-spacing-lg: 5rem;
+    --item-spacing-lg: 10rem;
+
 }
