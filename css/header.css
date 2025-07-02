@@ -3,7 +3,7 @@
 =========================== */
 .page__header {
     background-color: var(--background-color);
-    height: 7rem;
+    height: 10rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -13,7 +13,7 @@
     Block/element: header
 =========================== */
 .header__menu {
-    height: 1.9rem;
+    height: 3.2rem;
     display: flex;
     gap: var(--item-spacing-lg);
 }

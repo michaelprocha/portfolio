@@ -1,17 +1,49 @@
-/* ==== main ==== */
+/* ===========================
+    Block: main 
+=========================== */
+.page__main {
+    background-color: var(--background-color);
+    height: 70rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: var(--item-spacing-lg);
+}
+
 /* ===========================
     Block/element: content 
 =========================== */
 .main__content {
+    width: 57rem;
     display: flex;
     flex-direction: column;
     gap: 4rem;
 }
 
 /* ===========================
+    element: image 
+=========================== */
+.main__image {
+    width: 40.8rem;
+}
+
+/* ===========================
+    element: title
+=========================== */
+.titles__title {
+    font-family: var(--main-font);
+    font-size: var(--title-size-lg);
+    color: var(--text-color);
+    font-weight: normal;
+}
+
+/* ===========================
     Block/element: text 
 =========================== */
 .content__text {
+    font-family: var(--secondary-font);
+    font-size: var(--paragraph-size-lg);
+    color: var(--text-color);
     display: flex;
     flex-direction: column;
     gap: 2rem;

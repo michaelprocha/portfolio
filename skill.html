@@ -8,40 +8,60 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/header.css">
   <link rel="stylesheet" href="css/skill.css">
+  <link rel="stylesheet" href="css/footer.css">
 </head>
 <body class="page">
   <header class="page__header">
     <nav class="header__menu">
-        <a class="menu__link" href="index.html">Home</a>
-        <a class="menu__link" href="about.html">Sobre mim</a>
-        <a class="menu__link" href="skill.html">Habilidades</a>
+      <a class="menu__link" href="index.html">Home</a>
+      <a class="menu__link" href="about.html">Sobre mim</a>
+      <a class="menu__link" href="skill.html">Habilidades</a>
     </nav>
   </header>
 
   <main class="page__main">
     <section class="main__content">
-        <div class="content__titles">
-            <h1 class="titles__title">Habilidades</h1>
+      <div class="content__titles">
+          <h1 class="titles__title">Habilidades</h1>
+      </div>
+
+      <div class="content__skills">
+        <div class="skills__skill">
+          <div class="skill__texts">
+            <p class="texts__text">Figma</p>
+            <p class="texts__text">75%</p>
+          </div>
+          <img class="skill__image" src="assets/images/habilidade-figma.svg" alt="Habilidade HTML 4 de 5">
+        </div>
+            
+        <div class="skills__skill">
+          <div class="skill__texts">
+            <p class="texts__text">HTML</p>
+            <p class="texts__text">90%</p>
+          </div>
+          <img class="skill__image" src="assets/images/habilidade-html.svg" alt="Habilidade CSS 5 de 5">
+        </div>
+          
+        <div class="skills__skill">
+          <div class="skill__texts">
+            <p class="texts__text">CSS</p>
+            <p class="texts__text">95%</p>
+          </div>
+          <img class="skill__image" src="assets/images/habilidade-css.svg" alt="Habilidade Figma 3 de 5">
         </div>
 
-        <div class="content__skills">
-            <div class="skills__skill">
-                <p class="skill__text">HTML</p>
-                <img class="skill_image" src="assets/images/icon-html-skill.svg" alt="Habilidade HTML 4 de 5">
-            </div>
-            
-            <div class="skills__skill">
-                <p class="skill__text">CSS</p>
-                <img class="skill_image" src="assets/images/icon-css-skill.svg" alt="Habilidade CSS 5 de 5">
-            </div>
-            
-            <div class="skills__skill">
-                <p class="skill__text">FIGMA</p>
-                <img class="skill_image" src="assets/images/icon-figma-skill.svg" alt="Habilidade Figma 3 de 5">
-            </div>
+        <div class="skills__skill">
+          <div class="skill__texts">
+            <p class="texts__text">JavaScript</p>
+            <p class="texts__text">80%</p>
+          </div>
+          <img class="skill__image" src="assets/images/habilidade-js.svg" alt="Habilidade Figma 3 de 5">
         </div>
+      </div>
     </section>
 
     <img class="main__image" src="assets/images/profile-photo.svg" alt="Foto de Joana Santos">
