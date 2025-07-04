@@ -2,6 +2,7 @@
     Block: main 
 =========================== */
 .page__main {
+    flex-grow: 1;
     background-color: var(--background-color);
     height: 70rem;
     display: flex;
@@ -51,58 +52,99 @@
 
 
 
-@media only screen and (max-width: 1200px){
+/* ===========================
+   screen max-width:1180px
+=========================== */
+@media only screen and (max-width:1180px) {
     
-    /* ==== main ==== */
-    /* ===========================
-        Block: page
-    =========================== */
-    .page__main {
-        height: 76rem;
-        width: auto;
+    .page__main{
+        flex-grow: 3;
+        height: 130rem;
         display: flex;
         flex-direction: column-reverse;
-        gap: 4rem;
-        align-items: center;
-        /*padding: 5rem 0 8.25rem 13rem*/;
+        gap: var(--item-spacing-md);
+    }
+
+}
+
+
+
+/* ===========================
+   screen max-width:680px
+=========================== */
+@media only screen and (max-width:680px) {
+    
+    .page__main{
+        height: 140rem;
+    }
+
+    .main__content{
+        width: 48rem;
     }
     
 }
 
 
 
-@media only screen and (max-width: 650px){
-
-    /* ==== main ==== */
-    /* ===========================
-        Block: page
-    =========================== */
-    .page__main {
-        height: 57rem;
-        width: auto;
-        display: flex;
-        flex-direction: column-reverse;
-        gap: 2.5rem;
-        align-items: center;
-        justify-content: center;
-        /*padding: 5rem 0 8.25rem 13rem*/;
+/* ===========================
+   screen max-width:550px
+=========================== */
+@media only screen and (max-width:550px) {
+    
+    .page__main{
+        /* height: 78rem; */
+        height: 120rem;
+        gap: var(--item-spacing-md);
     }
 
-    /* ===========================
-    Block/element: content 
-    =========================== */
-    .main__content {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
+    .main__content{
+        width: 38.5rem;
     }
 
-    /* ===========================
-    Block/element: text 
-    =========================== */
-    .content__text {
-        display: flex;
-        flex-direction: column;
-        gap: 1.2rem;
+    .titles__title {
+        font-size: var(--title-size-md);
     }
+
+
+    .main-text__text{
+        font-size: var(--paragraph-size-md);
+    }
+
+    .main__image{
+        /* width: 26rem; */
+        width: 32.6rem;
+    }
+
+}
+
+
+
+/* ===========================
+   screen max-width:450px
+=========================== */
+@media only screen and (max-width: 450px) {
+    
+    .page__main{
+        height: 100rem;
+        gap: var(--item-spacing-sm);
+    }
+
+    .main__content{
+        width: 27.5rem;
+    }
+
+    .titles__title {
+        font-size: var(--title-size-sm);
+    }
+
+    .main-text__text{
+        font-size: var(--paragraph-size-sm);
+    }
+
+    .main__image{
+        /* width: 20.8rem; */
+        width: 26rem;
+    }
+
+
 }

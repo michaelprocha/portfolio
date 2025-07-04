@@ -2,8 +2,9 @@
     Block: page
 =========================== */
 .page__header {
+    /* flex-grow: 1; */
+    height: 8rem;
     background-color: var(--background-color);
-    height: 10rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -30,9 +31,105 @@
 }
 
 .menu__link:hover {
-    text-decoration: none;
-    font-family: var(--secondary-font);
-    font-size: var(--paragraph-size-lg);
-    color: var(--primary-color);
     border-bottom: solid 0.2rem var(--primary-color);
+}
+
+
+
+/* ===========================
+   screen max-width:680px
+=========================== */
+@media only screen and (max-width:680px) {
+
+    .header__menu {
+        /* height: 2.5rem; */
+        gap: var(--item-spacing-sm);
+    }
+
+}
+
+
+
+/* ===========================
+   screen max-width:550px
+=========================== */
+@media only screen and (max-width:550px){
+    
+    .page__header{
+        /* height: 5.2rem; */
+        height: 6.5rem;
+    }
+
+    .header__menu {
+        /* height: 2rem; */
+        height: 2.5rem;
+        gap: var(--item-spacing-sm);
+    }
+
+   .menu__link {
+        font-size: var(--paragraph-size-md);
+    }
+
+    .menu__link:hover {
+        border-bottom: solid 0.16rem var(--primary-color);
+        /* border-bottom: solid 0.12rem var(--primary-color); */
+    }
+
+}
+
+
+
+/* ===========================
+   screen max-width:450px
+=========================== */
+@media only screen and (max-width: 450px) {
+
+    .page__header{
+        height: 5.2rem;
+    }
+
+    .header__menu {
+        /* height: 1.6rem; */
+        height: 2rem;
+        gap: var(--item-spacing-vvvvsm);
+    }
+
+   .menu__link {
+        font-size: var(--paragraph-size-sm);
+    }
+
+    .menu__link:hover {
+        /* border-bottom: solid 0.12rem var(--primary-color); */
+        border-bottom: solid 0.09rem var(--primary-color);
+    }
+
+}
+
+
+/* ===========================
+   screen max-width:380px
+=========================== */
+@media only screen and (max-width:380px){
+    
+    .page__header{
+        height: 5.2rem;
+        /* height: 6.5rem; */
+    }
+
+    .header__menu {
+        /* height: 1.6rem; */
+        /* height: 5.2rem; */
+        height: 2rem;
+        gap: var(--item-spacing-vvvvsm);
+    }
+
+   .menu__link {
+        font-size: var(--paragraph-size-sm);
+    }
+
+    .menu__link:hover {
+        /* border-bottom: solid 0.12rem var(--primary-color); */
+        border-bottom: solid 0.09rem var(--primary-color);
+    }
+
 }

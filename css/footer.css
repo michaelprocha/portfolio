@@ -2,6 +2,7 @@
     Block: footer
 =========================== */
 .page__footer {
+    /* flex-grow: 1; */
     height: 8rem;
     width: 100%;
     background-color: var(--primary-color);
@@ -17,4 +18,40 @@
     font-family: var(--secondary-font);
     font-size: var(--paragraph-size-lg);
     color: var(--background-color);
+}
+
+
+
+/* ===========================
+   screen max-width:550px
+=========================== */
+@media only screen and (max-width:550px) {
+    
+    .page__footer{
+        /* height: 5.2rem; */
+        height: 6.5rem;
+    }
+
+    .footer__text{
+        font-size: var(--paragraph-size-md);
+    }
+
+}
+
+
+
+/* ===========================
+   screen max-width:450px
+=========================== */
+@media only screen and (max-width: 450px) {
+
+    .page__footer{
+        height: 5.2rem;
+        /* height: 6.5rem; */
+    }
+
+    .footer__text{
+        font-size: var(--paragraph-size-sm);
+    }
+
 }
