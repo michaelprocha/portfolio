@@ -2,6 +2,7 @@
     Block: main 
 =========================== */
 .page__main {
+    flex-grow: 1;
     background-color: var(--background-color);
     height: 70rem;
     display: flex;
