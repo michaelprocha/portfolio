@@ -17,7 +17,7 @@ This project was developed with the following technologies:
 
 - HTML5
 - CSS3 (Flexbox, Media Queries and Custom property)
-- [Custom](https://fonts.google.com/) font from Google Fonts
+- [Custom font from Google Fonts](https://fonts.google.com/) 
 
 ---
 
