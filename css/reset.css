@@ -8,3 +8,9 @@
 html {
   font-size: 62.5%; /* Define 1rem como 10px */
 }
+
+body{
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+}

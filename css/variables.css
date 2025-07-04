@@ -15,7 +15,25 @@
     --title-size-lg: 3.2rem;
     --paragraph-size-lg: 2.4rem;
 
+    /*font size medium*/
+    --title-size-md: 2.6rem;
+    --paragraph-size-md: 1.9rem;
+
+    /*font size small*/
+    --title-size-sm: 2.1rem;
+    --paragraph-size-sm: 1.5rem;
+
+    /*font size very small*/
+    --title-size-vsm: 1.7rem;
+    --paragraph-size-vsm: 1.2rem;
+
     /*spacing*/
     --item-spacing-lg: 10rem;
+    --item-spacing-md: 8rem;
+    --item-spacing-sm: 6.5rem;
+    --item-spacing-vsm: 5.2rem;
+    --item-spacing-vvsm: 4.1rem;
+    --item-spacing-vvvsm: 3.3rem;
+    --item-spacing-vvvvsm: 2.6rem;
 
 }
