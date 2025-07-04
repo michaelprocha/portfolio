@@ -11,17 +11,17 @@ A fictional responsive Portfolio website made with HTML5 and CSS3
 
 ---
 
-## 🚀 Tecnologias
+## 🚀 Technologies
 
-Esse projeto foi desenvolvido com as seguintes tecnologias:
+This project was developed with the following technologies:
 
 - HTML5
 - CSS3 (Flexbox, Media Queries and Custom property)
-- [Fonte](https://fonts.google.com/) personalizada do Google Fonts
+- [Custom](https://fonts.google.com/) font from Google Fonts
 
 ---
 
-## 📷 Capturas de Tela
+## 📷 Screenshots
 
 ### 💻 Desktop
 ![screenshot-desktop](/screenshots/print-desktop-home.png)
@@ -39,33 +39,32 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ---
 
-## 📦 Como usar
+## 📦 How to use
 
-1. Clone o repositório:
+1. Clone the repository:
 ```bash
-1. git clone https://github.com/seuusuario/seuprojeto.git
-
-2. Abra o arquivo `index.html` em qualquer navegador.
+git clone https://github.com/michaelprocha/alura-portfolio.git
 ```
+2. Abra o arquivo `index.html` em qualquer navegador.
 
 ---
 
-## 📌 Responsividade
+## 📌 Responsiveness
 
-Este site foi desenvolvido utilizando **Flexbox + Media Queries** para funcionar corretamente em:
+This site was developed using **Flexbox + Media Queries** to work correctly on:
 
-- Telas de celulares
+- Cell phone screens
 - Tablets
-- Monitores maiores
+- desktop screens
 
 ---
 
-## 👨‍💻 Autor
+## 👨‍💻 Author
 
-Feito com 💙 por [Michael Rocha](https://github.com/seunome)
+Made with 💙 by [Michael Rocha](https://github.com/michaelprocha)
 
 ---
 
-## 📄 Licença
+## 📄 License
 
-Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
+This project is licensed under the MIT License. See the LICENSE file for more details.
