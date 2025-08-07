@@ -1,0 +1,84 @@
+.presentation {
+	background-color: var(--background-color);
+	padding: 8rem 0 12rem 0;
+	display: flex;
+	justify-content: center;
+    gap: 5rem;
+}
+
+.presentation__main {
+	width: 37.1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.presentation__header {
+	text-align: center;
+}
+
+.presentation__title {
+	color: var(--primary-color);
+	font-family: var(--family-title);
+	font-size: var(--size-xlarge);
+    line-height: 3.5rem;
+}
+
+.presentation__subtitle {
+	color: var(--secondary-color);
+	font-family: var(--family-title);
+	font-size: var(--size-xlarge);
+}
+
+.presentation__text {
+    font-family: var(--family-text);
+    font-size: var(--size-medium);
+	color: var(--primary-color);
+    padding: 0 0 1.5rem 0;
+}
+
+.presentation__networks{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.presentation__intertitle {
+    font-family: var(--family-title);
+    font-size: var(--size-large);
+	color: var(--primary-color);
+}
+
+.presentation__link{
+    border: 2px solid var(--secondary-color);
+    border-radius: 8px;
+    padding: 1rem 1.2rem 1rem 1.2rem;
+    width: 100%;
+    max-width: 27rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.presentation__link:hover{
+    background-color: var(--hover-color);
+}
+
+
+.presentation__network {
+    font-family: var(--family-text);
+    font-size: var(--size-medium);
+    font-weight: var(--weight-medium);
+	color: var(--primary-color);
+}
+
+.presentation__profile {
+	width: 33rem;
+}
+
+.presentation__image {
+	width: 100%;
+}
