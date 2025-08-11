@@ -1,74 +1,75 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Portfolio</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/reset.css">
-  <link rel="stylesheet" href="css/variables.css">
-  <link rel="stylesheet" href="css/header.css">
-  <link rel="stylesheet" href="css/skill.css">
-  <link rel="stylesheet" href="css/footer.css">
-</head>
-<body class="page">
-  <header class="page__header">
-    <nav class="header__menu">
-      <a class="menu__link" href="index.html">Home</a>
-      <a class="menu__link" href="about.html">Sobre mim</a>
-      <a class="menu__link" href="skill.html">Habilidades</a>
-    </nav>
-  </header>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<title>Portfolio</title>
+		<meta name="description" content="Portfolio fictício de programadora front-end" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<meta name="keywords" content="Portfolio, TI, Técnologia, Programação, desenvolvimento de software, Front-end" />
+		<meta name="author" content="Michael Rocha" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="css/pages/skill.css" />
+	</head>
+	<body class="">
+		<header class="header">
+			<nav class="header__menu">
+				<a class="header__link" href="index.html">Home</a>
+				<a class="header__link" href="about.html">Sobre mim</a>
+				<a class="header__link" href="skill.html">Habilidades</a>
+			</nav>
+		</header>
 
-  <main class="page__main">
-    <section class="main__content">
-      <div class="content__titles">
-          <h1 class="titles__title">Habilidades</h1>
-      </div>
+		<main>
+			<section class="skill-section">
+				<article class="skill-section__main">
+					<h1 class="skill-section__title">Habilidades</h1>
 
-      <div class="content__skills">
-        <div class="skills__skill">
-          <div class="skill__texts">
-            <p class="texts__text">Figma</p>
-            <p class="texts__text">75%</p>
-          </div>
-          <img class="skill__image" src="assets/images/habilidade-figma.svg" alt="Habilidade HTML 4 de 5">
-        </div>
-            
-        <div class="skills__skill">
-          <div class="skill__texts">
-            <p class="texts__text">HTML</p>
-            <p class="texts__text">90%</p>
-          </div>
-          <img class="skill__image" src="assets/images/habilidade-html.svg" alt="Habilidade CSS 5 de 5">
-        </div>
-          
-        <div class="skills__skill">
-          <div class="skill__texts">
-            <p class="texts__text">CSS</p>
-            <p class="texts__text">95%</p>
-          </div>
-          <img class="skill__image" src="assets/images/habilidade-css.svg" alt="Habilidade Figma 3 de 5">
-        </div>
+					<div class="skill-section__skills">
+						<div class="skill-section__texts">
+							<p class="skill-section__text">Figma</p>
+							<p class="skill-section__text">75%</p>
+						</div>
+						<img class="skill__bar" src="assets/images/habilidade-figma.svg" alt="Habilidade HTML 4 de 5" />
+					</div>
 
-        <div class="skills__skill">
-          <div class="skill__texts">
-            <p class="texts__text">JavaScript</p>
-            <p class="texts__text">80%</p>
-          </div>
-          <img class="skill__image" src="assets/images/habilidade-js.svg" alt="Habilidade Figma 3 de 5">
-        </div>
-      </div>
-    </section>
+					<div class="skill-section__skills">
+						<div class="skill-section__texts">
+							<p class="skill-section__text">HTML</p>
+							<p class="skill-section__text">90%</p>
+						</div>
+						<img class="skill-section__bar" src="assets/images/habilidade-html.svg" alt="Habilidade CSS 5 de 5" />
+					</div>
 
-    <img class="main__image" src="assets/images/profile-photo.svg" alt="Foto de Joana Santos">
-  </main>
+					<div class="skill-section__skills">
+						<div class="skill-section__texts">
+							<p class="skill-section__text">CSS</p>
+							<p class="skill-section__text">95%</p>
+						</div>
+						<img class="skill-section__bar" src="assets/images/habilidade-css.svg" alt="Habilidade Figma 3 de 5" />
+					</div>
 
-  <footer class="page__footer">
-    <p class="footer__text">Desenvolvido por Michael Rocha.</p>
-  </footer>
-</body>
+					<div class="skill-section__skills">
+						<div class="skill-section__texts">
+							<p class="skill-section__text">JavaScript</p>
+							<p class="skill-section__text">80%</p>
+						</div>
+						<img class="skill-section__bar" src="assets/images/habilidade-js.svg" alt="Habilidade Figma 3 de 5" />
+					</div>
+				</article>
+				<article class="skill-section__profile">
+					<img class="skill-section__image" src="assets/images/profile-photo.svg" alt="Foto de Joana Santos" />
+				</article>
+			</section>
+		</main>
+
+		<footer class="footer">
+			<p class="footer__text">Desenvolvido por Michael Rocha.</p>
+		</footer>
+	</body>
 </html>
