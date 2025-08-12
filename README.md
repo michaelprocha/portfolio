@@ -17,6 +17,7 @@ This project was developed with the following technologies:
 
 - HTML5
 - CSS3 (Flexbox, Media Queries and Custom property)
+- Accessibility (a11y)
 - [Custom font from Google Fonts](https://fonts.google.com/) 
 
 ---
@@ -24,18 +25,13 @@ This project was developed with the following technologies:
 ## 📷 Screenshots
 
 ### 💻 Desktop
-![screenshot-desktop](/screenshots/print-desktop-home.png)
+![screenshot-desktop](/screenshots/home-page-desktop.png)
 
-![screenshot-desktop](/screenshots/print-desktop-about.png)
-
-![screenshot-desktop](/screenshots/print-desktop-skill.png)
+### Tablet
+![screenshot-tablet](/screenshots/home-page-tablet.png)
 
 ### 📱 Mobile
-![screenshot-mobile](/screenshots/print-mobile-home.png)
-
-![screenshot-mobile](/screenshots/print-mobile-about.png)
-
-![screenshot-mobile](/screenshots/print-mobile-skill.png)
+![screenshot-mobile](/screenshots/home-page-mobile.png)
 
 ---
 
@@ -61,7 +57,7 @@ This site was developed using **Flexbox + Media Queries** to work correctly on:
 
 ## 👨‍💻 Author
 
-Made with 💙 by [Michael Rocha](https://github.com/michaelprocha)
+Made by [Michael Rocha](https://github.com/michaelprocha)
 
 ---
 
